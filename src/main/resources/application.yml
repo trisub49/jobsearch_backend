@@ -1,0 +1,13 @@
+spring:
+  main:
+    banner-mode: "off"
+  datasource:
+    url: jdbc:mysql://localhost:3306/jobsearch?serverTimezone=UTC&characterEncoding=utf8
+    username: root
+    password: test1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8080
